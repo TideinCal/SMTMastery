@@ -1,0 +1,32 @@
+.mastery__invite {
+  @apply py-11 md:py-12;
+}
+.mastery__invite .invite-container {
+  @apply w-full container mx-auto px-3.5 sm:px-8;
+}
+
+.mastery__invite .invite {
+  @apply rounded-2xl w-full flex gap-8 flex-col lg:flex-row-reverse p-7 sm:p-8 md:px-16 md:py-[34px];
+}
+
+/*Column 1*/
+.mastery__invite .invite-col-1 {
+  @apply w-full lg:w-3/5;
+}
+.mastery__invite .invite-col-1 > .invite-refferal {
+  @apply flex gap-8 flex-col lg:flex-row-reverse items-center lg:justify-between;
+}
+.mastery__invite .invite-col-1 .discount {
+  @apply flex flex-col items-center rotate-[5.58deg];
+}
+
+/*Column 2*/
+.mastery__invite .invite-col-2 {
+  @apply w-full lg:w-2/5 flex justify-center lg:justify-start items-center;
+}
+.mastery__invite .invite-col-2 .affiliate-program h2 {
+  @apply font-black mb-4 md:mb-5 text-2xl sm:text-3xl md:text-[2rem];
+}
+.mastery__invite .invite-col-2 .affiliate-program .content {
+  @apply flex flex-col gap-2.5 sm:gap-3;
+}

@@ -1,0 +1,31 @@
+.footer-section {
+  @apply py-[4.375rem];
+}
+
+.footer-section .footer-container {
+  @apply container mx-auto px-3.5 sm:px-6 md:px-8 flex gap-8 flex-col md:flex-row md:justify-between;
+}
+
+.footer-section .footer-social {
+  @apply flex flex-col items-center;
+}
+.footer-section .footer-social .logo {
+  @apply w-[111px] h-auto;
+}
+.footer-section .footer-social .social-links {
+  @apply mt-4 flex gap-3.5;
+}
+
+.footer-section .footer-nav .categories-container {
+  @apply mb-12 md:mb-16 text-center md:text-left flex flex-col md:flex-row gap-7 md:gap-12 items-center md:justify-between;
+}
+.footer-section .footer-nav .category {
+  @apply flex flex-col gap-2 sm:gap-3 text-xs md:text-sm;
+}
+.footer-section .footer-nav .category .category-title {
+  @apply font-bold mb-3.5 sm:mb-4 text-brand-red;
+}
+
+.footer-section .footer-nav .copyright {
+  @apply text-xs text-center md:text-right;
+}

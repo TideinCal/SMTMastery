@@ -1,0 +1,39 @@
+.testimonials .stars {
+  @apply flex my-2 gap-2;
+}
+.testimonials .stars img {
+  @apply w-8 h-8 md:w-9 md:h-9;
+}
+
+/**/
+.testimonials .stars-sm {
+  @apply flex gap-2;
+}
+.testimonials .stars-sm img {
+  @apply w-4 h-4 md:w-[18px] md:h-[18px];
+}
+
+/**/
+.testimonials .card {
+  @apply p-8 sm:p-5 flex flex-col justify-between bg-white text-brand-black rounded-lg;
+}
+.testimonials .card .comment {
+  @apply relative h-[160px] whitespace-normal overflow-hidden text-ellipsis;
+}
+.testimonials .card .profile {
+  @apply flex justify-start gap-2.5;
+}
+.testimonials .card .pic {
+  @apply flex items-center;
+}
+.testimonials .card .pic img {
+  @apply rounded-full w-11 h-11 md:w-12 md:h-12;
+}
+
+/**/
+.testimonials .navigation {
+  @apply absolute top-1/2 -translate-y-1/2 z-10;
+}
+.testimonials .navigation img {
+  @apply h-11 md:h-14 lg:h-16 object-contain;
+}

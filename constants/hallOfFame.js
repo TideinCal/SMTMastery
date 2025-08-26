@@ -1,0 +1,59 @@
+export const hallGrid1 = [
+  "/assets/images/hall-of-fame/1.jpg",
+  "/assets/images/hall-of-fame/2.jpg",
+  "/assets/images/hall-of-fame/3.jpg",
+  "/assets/images/hall-of-fame/2.jpg",
+  "/assets/images/hall-of-fame/4.jpg",
+  "/assets/images/hall-of-fame/5.jpg",
+  "/assets/images/hall-of-fame/6.jpg",
+  "/assets/images/hall-of-fame/6.jpg",
+  "/assets/images/hall-of-fame/7.jpg",
+  "/assets/images/hall-of-fame/7.jpg",
+  "/assets/images/hall-of-fame/8.jpg",
+]
+//
+export const hallGrid2 = [
+  "/assets/images/hall-of-fame/9.jpg",
+  "/assets/images/hall-of-fame/5.jpg",
+  "/assets/images/hall-of-fame/10.jpg",
+  "/assets/images/hall-of-fame/10.jpg",
+  "/assets/images/hall-of-fame/10.jpg",
+  "/assets/images/hall-of-fame/10.jpg",
+  "/assets/images/hall-of-fame/11.jpg",
+  "/assets/images/hall-of-fame/12.jpg",
+  "/assets/images/hall-of-fame/1.jpg",
+  "/assets/images/hall-of-fame/10.jpg",
+  "/assets/images/hall-of-fame/10.jpg",
+  "/assets/images/hall-of-fame/10.jpg",
+  "/assets/images/hall-of-fame/13.jpg",
+]
+//
+export const hallGrid3 = [
+  "/assets/images/hall-of-fame/14.jpg",
+  "/assets/images/hall-of-fame/15.jpg",
+  "/assets/images/hall-of-fame/16.jpg",
+  "/assets/images/hall-of-fame/13.jpg",
+  "/assets/images/hall-of-fame/17.jpg",
+  "/assets/images/hall-of-fame/18.jpg",
+  "/assets/images/hall-of-fame/19.jpg",
+  "/assets/images/hall-of-fame/20.jpg",
+  "/assets/images/hall-of-fame/14.jpg",
+  "/assets/images/hall-of-fame/14.jpg",
+  "/assets/images/hall-of-fame/14.jpg",
+  "/assets/images/hall-of-fame/15.jpg",
+  "/assets/images/hall-of-fame/21.jpg",
+]
+//
+export const hallGrid4 = [
+  "/assets/images/hall-of-fame/22.jpg",
+  "/assets/images/hall-of-fame/23.jpg",
+  "/assets/images/hall-of-fame/24.jpg",
+  "/assets/images/hall-of-fame/25.jpg",
+  "/assets/images/hall-of-fame/26.jpg",
+  "/assets/images/hall-of-fame/27.jpg",
+  "/assets/images/hall-of-fame/9.jpg",
+  "/assets/images/hall-of-fame/28.jpg",
+  "/assets/images/hall-of-fame/28.jpg",
+  "/assets/images/hall-of-fame/29.jpg",
+  "/assets/images/hall-of-fame/23.jpg",
+]

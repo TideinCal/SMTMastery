@@ -1,0 +1,44 @@
+/* Navbar */
+.navbar {
+  @apply relative container mx-auto w-full h-16 bg-inherit flex items-center justify-between p-4 md:px-10 lg:px-9 z-[2];
+}
+.mobile-navbar {
+  @apply md:hidden relative bg-inherit flex w-full pt-3.5 pb-7 z-[1] -my-36;
+}
+.mobile-navbar.open {
+  @apply relative my-0;
+}
+
+/* Logo */
+.logo {
+  @apply relative w-[43px] h-[46px];
+}
+
+/* NavLinks */
+.navlinks {
+  @apply hidden md:flex gap-20 ml-20;
+}
+.mobile-navlinks {
+  @apply w-full flex flex-col items-center text-sm md:text-base;
+}
+.mobile-navlinks > * {
+  @apply p-1.5;
+}
+
+:is(.navlinks, .mobile-navlinks) > .active {
+  @apply text-brand-red font-bold;
+}
+
+/* Menu Bar */
+.menubar {
+  @apply md:hidden ml-2 md:mt-3.5 relative float-right clear-both flex flex-col gap-1.5 justify-center items-center;
+}
+.menubar > * {
+  @apply bg-brand-red w-7 h-[3px] rounded-full;
+}
+.menubar.open > div:first-child {
+  @apply translate-y-1 rotate-45;
+}
+.menubar.open > div:last-child {
+  @apply -translate-y-[5px] -rotate-45;
+}

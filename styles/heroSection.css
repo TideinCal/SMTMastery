@@ -1,0 +1,40 @@
+.mastery__hero-section {
+  @apply w-full container mx-auto py-10 md:py-11 lg:py-12;
+}
+
+.hero-container {
+  @apply px-3.5 md:px-9 flex flex-col gap-7 sm:gap-[46px] lg:gap-16 items-center;
+}
+
+/* Hero Logo */
+.hero-logo {
+  @apply relative w-[245px] h-[67px] md:w-[262px] md:h-[72px] lg:w-[280px] lg:h-[77px];
+}
+
+/* Hero Content */
+.hero-content {
+  @apply w-full flex flex-col md:flex-row-reverse gap-7 sm:gap-[46px] md:justify-between;
+}
+.hero-content > .hero-mockup {
+  @apply flex justify-center md:justify-end md:w-[40%];
+}
+.hero-content > .hero-mockup > .hero-mockup-img {
+  @apply relative w-[292px] h-[252px] sm:mr-8 lg:mr-12;
+}
+.hero-content > .hero-text {
+  @apply text-brand-white text-center md:text-left md:w-[60%];
+}
+.hero-content > .hero-text h1 {
+  @apply font-black text-2xl sm:text-4xl md:text-[1.7rem] xl:text-5xl mb-7 lg:mb-[30px] md:leading-7;
+}
+.hero-content > .hero-text p {
+  @apply font-light text-sm md:text-base mb-8 md:w-[336px];
+}
+
+/* Hero Brands */
+.hero-brands {
+  @apply w-full container mx-auto flex flex-wrap justify-center lg:justify-between gap-7 md:gap-11 lg:gap-4  gap-y-3.5 md:gap-y-3.5;
+}
+.hero-brands > * {
+  @apply relative w-[105px] h-[59px];
+}

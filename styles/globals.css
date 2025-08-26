@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("navbar.css");
+@import url("heroSection.css");
+@import url("testimonials.css");
+@import url("about.css");
+@import url("faq.css");
+@import url("joinCommunity.css");
+@import url("footer.css");
+
+@import url("mastery/perks.css");
+@import url("mastery/howDoesItWork.css");
+@import url("mastery/trade.css");
+@import url("mastery/invite.css");
+@import url("mastery/smart-money-team.css");
+
+@import url("academy/roadmap.css");
+@import url("academy/steps.css");
+
+@font-face {
+  font-family: "Point";
+  src: url("/fonts/PointRegular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Point";
+  src: url("/fonts/PointLight.woff2") format("woff2");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Point";
+  src: url("/fonts/PointBook.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Point";
+  src: url("/fonts/PointBold.woff2") format("woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Point";
+  src: url("/fonts/PointBlack.woff2") format("woff2");
+  font-weight: 900;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  transition: 0.3s ease;
+  /* pointer-events: none; */
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  @apply font-brand;
+}
+
+.dark-theme {
+  @apply text-brand-white bg-brand-black;
+}
+.light-theme {
+  @apply bg-brand-white text-brand-black;
+}
+
+.page-section {
+  @apply py-11 sm:py-12 md:py-[50px];
+}
+.section-container {
+  @apply container mx-auto px-3.5 sm:px-6 md:px-8;
+}
+.page-section .page-title {
+  @apply font-black text-brand-red text-center text-[42px] md:text-5xl leading-10 mb-8 sm:mb-9 md:mb-[50px];
+}
+.page-section .content {
+  @apply mb-7 sm:mb-11 md:mb-[60px];
+}
+.page-section .content .heading {
+  @apply font-black text-center md:text-left text-[28px] sm:text-3xl md:text-[32px] leading-7;
+}
+.page-section .content .heading-center {
+  @apply font-black text-center text-[28px] sm:text-3xl md:text-[32px] leading-7;
+}
+.page-section .content .paragraphs {
+  @apply ml-3.5 mt-4 sm:ml-[30px] sm:mb-[18px] md:ml-[50px] md:mt-5;
+}
+.page-section .content p {
+  @apply mb-3.5 text-sm sm:text-[15px] md:text-base leading-4 sm:leading-4 md:leading-5;
+}
+
+.modal {
+  @apply w-screen h-screen fixed top-0 bg-[#0009] hidden items-center justify-center;
+}
+.modal.active {
+  @apply flex;
+}
+
+.brand-btn {
+  @apply bg-brand-red text-brand-white py-2.5 md:py-3 px-[18px] rounded-full font-bold text-sm md:text-base inline-block leading-none md:leading-none hover:bg-[#861d22];
+}
+.brand-btn-yellow {
+  @apply bg-[#f6b803] text-brand-black py-2.5 md:py-3 px-[18px] rounded-full font-bold text-sm md:text-base inline-block leading-none md:leading-none hover:bg-[#f6b803];
+}
+.brand-btn-white {
+  @apply bg-brand-white text-brand-black py-2.5 md:py-3 px-[18px] rounded-full font-bold text-sm md:text-base inline-block leading-none md:leading-none;
+}
+
+.pill {
+  @apply rounded-full font-bold py-0.5 px-2 md:py-1 md:px-3 inline-block;
+}
+
+.play-icon {
+  @apply h-9 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover:scale-125;
+}
+
+.content-list-container {
+  @apply flex flex-col gap-2 text-sm md:text-base md:mt-3 md:ml-2.5;
+}
+.content-list {
+  @apply flex gap-2 items-center;
+}
+.content-list .number {
+  @apply bg-brand-red text-center rounded-full text-brand-white text-xs h-4 w-4;
+}
+.content-list .bullet img {
+  @apply h-4 object-contain mr-1;
+}
+
+.clients-container {
+  @apply grid grid-cols-3 md:grid-cols-5 gap-3 md:gap-5;
+}
+.certificates {
+  @apply w-full flex h-[27vw] sm:h-[170px] md:h-[200px] lg:h-[270px] xl:h-[330px];
+}
+
+.bounce-animation {
+  animation: bounce 3s ease 2s infinite;
+}
+.bounce-animation:hover {
+  animation-play-state: paused;
+}
+
+@keyframes bounce {
+  0%,
+  20% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(-0.5rem);
+  }
+}

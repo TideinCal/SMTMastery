@@ -1,0 +1,19 @@
+.steps {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-0;
+}
+
+.steps .id {
+  @apply font-black text-xl sm:text-2xl;
+}
+.steps .icon {
+  @apply flex justify-center py-4 sm:py-5;
+}
+.steps .title {
+  @apply font-bold sm:text-lg;
+}
+.steps .subtitle {
+  @apply text-brand-red text-xs sm:text-base;
+}
+.steps .details {
+  @apply p-4 sm:text-sm md:text-base leading-5 md:leading-5;
+}

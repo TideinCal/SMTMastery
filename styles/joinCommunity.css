@@ -1,0 +1,37 @@
+.join-community-section {
+  @apply py-[35px] sm:py-[37px] lg:py-[40px] text-brand-white;
+}
+
+.join-community-section .join-community-container {
+  @apply container mx-auto px-3.5 sm:px-6 md:px-8;
+}
+.join-community-section .join-community-wrapper {
+  @apply relative rounded-[1.25rem] flex flex-col md:flex-row-reverse overflow-hidden;
+}
+
+.join-community-section .img-wrapper {
+  @apply relative w-full h-56 md:w-5/12 md:h-[504px] overflow-hidden;
+}
+.join-community-section .img-wrapper img {
+  @apply scale-150 md:scale-[2] object-cover opacity-70 md:translate-y-1/3 lg:translate-y-0;
+}
+.join-community-section .img-wrapper .light {
+  @apply absolute top-0 left-0 w-full h-full z-10 origin-left bg-gradient-to-t md:bg-gradient-to-r from-brand-red to-transparent;
+}
+.join-community-section .img-wrapper .dark {
+  @apply absolute top-0 left-0 w-full h-full z-10 origin-left bg-gradient-to-t md:bg-gradient-to-r from-black to-transparent;
+}
+
+.join-community-section .details {
+  @apply p-10 pt-0 sm:px-20 md:px-[70px] md:py-[62px] md:w-7/12 z-10;
+}
+.join-community-section .details h1 {
+  @apply font-black text-2xl md:text-3xl lg:text-4xl mb-5;
+}
+.join-community-section .details p {
+  @apply font-light text-sm sm:text-base md:text-xl text-justify mb-5 md:mb-7;
+}
+
+.join-community-section .community-btn {
+  @apply text-center px-8 py-5 font-bold text-sm md:text-base leading-none md:leading-none rounded-3xl inline-flex justify-between items-center gap-2.5;
+}

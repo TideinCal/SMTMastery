@@ -1,0 +1,13 @@
+.roadmap .counters {
+  @apply pb-11 sm:pb-12 md:pb-[50px] grid grid-cols-2 sm:grid-cols-3 gap-3 md:gap-10;
+}
+.roadmap .counters .counter {
+  @apply rounded-lg bg-brand-red p-5 text-center text-brand-white last:col-span-2 sm:last:col-span-1;
+}
+
+.roadmap .counter .count {
+  @apply font-black text-4xl sm:text-5xl md:text-6xl;
+}
+.roadmap .counter .title {
+  @apply font-bold text-[0.6rem] md:text-base;
+}

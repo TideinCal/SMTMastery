@@ -1,0 +1,42 @@
+.mastery__work {
+  @apply py-11;
+}
+
+.mastery__work .work-container {
+  @apply container mx-auto w-full overflow-hidden px-4 sm:px-6 md:px-8;
+}
+
+.mastery__work .work-title {
+  @apply mb-12 md:mb-14 text-center font-black text-2xl sm:text-3xl lg:text-[2rem];
+}
+
+/*Work Mobile Version */
+.mastery__work .work-mobile {
+  @apply flex justify-center lg:hidden;
+}
+.mastery__work .work-cards {
+  @apply w-2/3 min-[375px]:w-3/5 sm:w-1/3 xl:w-1/4;
+}
+.mastery__work .work-card {
+  @apply p-7 bg-brand-red rounded-3xl shadow-lg;
+}
+.mastery__work .work-card .mockup {
+  @apply relative h-64 md:h-96 lg:h-[404px];
+}
+.mastery__work .work-card .title {
+  @apply mt-4 flex gap-2.5 font-bold text-lg justify-center;
+}
+
+/*Work Desktop Version */
+.mastery__work .work-desktop {
+  @apply hidden lg:flex justify-center;
+}
+.mastery__work .work-desktop .mockup {
+  @apply relative h-64 md:h-96 lg:h-[404px];
+}
+.mastery__work .work-desktop .title {
+  @apply mt-4 flex gap-2.5 font-bold text-lg justify-center;
+}
+.mastery__work .work-desktop .arrow {
+  @apply last:hidden flex items-center px-5;
+}

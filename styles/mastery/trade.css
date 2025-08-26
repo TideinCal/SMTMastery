@@ -1,0 +1,32 @@
+.mastery__trade {
+  @apply py-11 sm:py-12;
+}
+
+.mastery__trade .trade-container {
+  @apply container mx-auto w-full px-3.5 sm:px-6 md:px-8;
+}
+
+.mastery__trade .trade-title {
+  @apply mb-10 md:mb-14 text-center font-black text-2xl sm:text-3xl lg:text-[2rem];
+}
+
+.mastery__trade .trade-cols {
+  @apply flex flex-col sm:flex-row gap-8 md:gap-16 relative w-full;
+}
+
+/*Trade Video*/
+.mastery__trade .trade-video {
+  @apply w-full sm:w-1/2;
+}
+
+.mastery__trade .trade-video .video-img {
+  @apply object-contain overflow-hidden rounded-2xl md:rounded-3xl;
+}
+
+.mastery__trade .trade-content-col {
+  @apply w-full sm:w-1/2 flex items-center text-sm sm:text-[15px] md:text-[16px];
+}
+
+.mastery__trade .trade-content-col .trade-content {
+  @apply text-center sm:text-left;
+}

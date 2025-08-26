@@ -1,0 +1,40 @@
+.smart-money-section .exclusive-pass {
+  @apply h-[350px] sm:h-[450px] lg:h-[640px] bg-[url('/assets/images/exclusive_pass.jpg')] bg-cover bg-no-repeat bg-center md:bg-[center_top_70%] lg:bg-auto;
+}
+
+.smart-money-section .exclusive-pass .title {
+  @apply pt-12 px-3.5 md:pt-14 md:px-[30px] text-center;
+}
+.smart-money-section .exclusive-pass .title span:first-child {
+  @apply font-bold text-xl sm:text-[22px] md:text-3xl;
+}
+.smart-money-section .exclusive-pass .title span:last-child {
+  @apply text-brand-red text-2xl sm:text-3xl md:text-4xl font-black;
+}
+
+.smart-money-section .exclusive-access {
+  @apply flex flex-col md:flex-row md:justify-around px-3.5 md:px-8 pb-11 md:pb-12 md:pt-5;
+}
+
+.smart-money-section .exclusive-access .exclusive-col-1 {
+  @apply flex flex-col items-center md:items-start;
+}
+
+.smart-money-section .exclusive-access .exclusive-col-1 .actual-price img {
+  @apply h-[41px] object-contain;
+}
+.smart-money-section .exclusive-access .exclusive-col-1 .discounted-price {
+  @apply font-black text-[91px] sm:text-[97.5px] lg:text-[64px] leading-none mt-2 mb-3;
+}
+
+.smart-money-section .exclusive-access .exclusive-col-1 .payment {
+  @apply p-10 md:px-0 md:pb-0;
+}
+
+.smart-money-section .exclusive-access .exclusive-col-1 .payment img {
+  @apply sm:max-w-[345px] md:w-[290px] object-contain;
+}
+
+.smart-money-section .exclusive-access .exclusive-col-2 {
+  @apply flex justify-center;
+}

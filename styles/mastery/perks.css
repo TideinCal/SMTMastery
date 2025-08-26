@@ -1,0 +1,26 @@
+.mastery__perks-section {
+  @apply p-4 sm:py-7 md:py-[30px] lg:py-14;
+}
+
+.mastery__perks-section .perks-title {
+  @apply font-black text-2xl sm:text-3xl md:text-[2rem] text-center md:mb-11;
+}
+
+.mastery__perks-section .perks {
+  @apply relative flex flex-col lg:flex-row justify-center items-center lg:items-start lg:px-8 lg:mx-4;
+}
+.mastery__perks-section .perks .perk {
+  @apply py-7 sm:py-[30px] flex flex-col items-center lg:w-1/3;
+}
+.mastery__perks-section .perk .title {
+  @apply font-bold text-lg lg:text-xl mt-5 mb-3.5 lg:mt-9 lg:mb-7;
+}
+.mastery__perks-section .perk .points {
+  @apply text-center lg:text-left text-sm lg:text-base;
+}
+.mastery__perks-section .line {
+  @apply last:hidden h-0.5 w-[237px] lg:h-full lg:w-0.5 lg:mr-12 lg:ml-8 rotate-90 lg:rotate-0;
+}
+.mastery__perks-section .line img {
+  @apply w-0.5 translate-x-[7.5rem] -translate-y-1/2 lg:translate-x-0 lg:translate-y-1/3;
+}

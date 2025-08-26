@@ -1,0 +1,47 @@
+import Head from "next/head"
+import { Navbar, JoinCommunity, Footer } from "@/components"
+import { FadeUp } from "@/components/animations"
+import { termsOfService } from "@/constants"
+
+export default function TermsOfService() {
+  return (
+    <>
+      <Head>
+        <meta name="description" content="Description" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.jpg" />
+        <title>Terms of Service | SMT</title>
+      </Head>
+
+      <main className="light-theme">
+        <Navbar />
+
+        <section className="page-section">
+          <div className="section-container">
+            <FadeUp className="page-title">Terms of Service</FadeUp>
+
+            <div className="page-content">
+              {termsOfService?.map(({ title, paragraphs }, i) => (
+                <div key={`content-${title}`} className="content">
+                  <FadeUp className="heading">{title}</FadeUp>
+
+                  <div className="paragraphs">
+                    {paragraphs?.map((paragraph, j) => (
+                      <FadeUp key={title + j}>
+                        <p>{paragraph}</p>
+                      </FadeUp>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <JoinCommunity />
+      </main>
+
+      <Footer />
+    </>
+  )
+}

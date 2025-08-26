@@ -1,0 +1,36 @@
+.about-section {
+  @apply pb-16;
+}
+
+.about-section .about-container {
+  @apply container mx-auto px-3.5 sm:px-5 md:px-8 flex flex-col md:flex-row items-center justify-center;
+}
+
+.about-section .about-pic {
+  @apply md:w-1/3 md:scale-125 z-10;
+}
+
+.about-section .about-content {
+  @apply px-9 md:w-2/3 lg:w-3/4 text-center md:text-left md:px-5 lg:px-0 md:translate-y-10 lg:translate-y-8 xl:translate-y-0;
+}
+
+.about-section .about-content .about-title {
+  @apply inline-flex font-black text-center rounded-2xl text-2xl leading-5 bg-brand-red mb-5 py-3 px-5 md:pl-24 md:-translate-x-24;
+}
+
+.about-section .about-content .about-text {
+  @apply text-justify font-light text-sm lg:text-base leading-4 lg:leading-4 mb-6;
+}
+
+.about-section .about-featured {
+  @apply flex flex-col items-center md:items-end;
+}
+.about-section .about-featured .separator {
+  @apply mt-3 mb-4 md:mt-2 md:mb-3 w-12 h-0.5 bg-brand-red;
+}
+.about-section .about-featured .featured-img {
+  @apply flex flex-wrap justify-center gap-8;
+}
+.about-section .about-featured .featured-img img {
+  @apply h-8 object-contain;
+}
